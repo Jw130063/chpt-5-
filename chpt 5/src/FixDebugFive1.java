@@ -14,7 +14,7 @@ import javax.swing.*;
                     "Order please/n1 - Burger\2 - Hotdog" +
                             "\n3 - Grilled cheese\n4 - Fish sandwich");
             usersChoice= Double.parseDouble(usersChoiceString);
-            if(usersChoice = 1 | usersChoice = 2)
+            if(usersChoice == 1 || usersChoice == 2)
                 bill = bill + HIGH_PRICE;
             else
                 bill = bill + MED_PRICE;
